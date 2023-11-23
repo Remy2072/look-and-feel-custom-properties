@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Living styleguide</title>
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <nav>
+            <img src="assets/img/logo.png" alt="oba logo" />
+
+            <button class="tablink" onclick="switchTab(event, 'globals')">
+                Globals
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'typografie')">
+                Typografie
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'kleuren')">
+                Kleuren
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'buttons')">
+                Knoppen
+            </button>
+            <button class="tablink" onclick="switchTab(event, 'images')">
+                Afbeeldingen
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'logos')">
+                Logo's
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'icons')">
+                Iconen
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'components')">
+                Componenten
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'forms')">
+                Forms
+            </button>
+
+            <button class="tablink" onclick="switchTab(event, 'layout')">
+                Layout
+            </button>
+            <button class="tablink" onclick="switchTab(event, 'media')">
+                Media
+            </button>
+        </nav>
+
+        <section id="globals" class="tabcontent">
+            <h2 id="globals-h2">Globals</h2>
+        </section>
+
+        <section id="typografie" class="tabcontent">
+            <h2 id="typografie-h2">Typografie</h2>
+        </section>
+
+        <section id="kleuren" class="tabcontent">
+            <h2>Kleuren</h2>
+            <p class="text">
+                De vier basis kleuren zijn rood, wit, grijs en zwart. Naast de
+                vier basis kleuren zijn er nog vier kleuren gekozen: oranje,
+                paars, blauw en turquoise. Deze kleuren worden gebruikt voor
+                submerken en projecten. Hiernaast zijn nog zes extra kleuren
+                geselecteerd, deze worden gebruikt voor producten en diensten
+            </p>
+
+            <h3>Basis kleuren</h3>
+            <div class="colors-container">
+                <div class="color1">#F00</div>
+                <div class="color1">#FFF</div>
+                <div class="color1">#CCC</div>
+                <div class="color1">#000</div>
+            </div>
+
+            <h3>Submerken en projecten</h3>
+            <div class="colors-container">
+                <div class="color2">#FF561E</div>
+                <div class="color2">#A22A86</div>
+                <div class="color2">#1370BD</div>
+                <div class="color2">#32A182</div>
+            </div>
+
+            <h3>Producten en diensten</h3>
+            <div class="colors-container">
+                <div class="color3">#FDA12B</div>
+                <div class="color3">#FE2F7F</div>
+                <div class="color3">#3C389E</div>
+                <div class="color3">#31A3DB</div>
+                <div class="color3">#54AF45</div>
+                <div class="color3">#B2CB42</div>
+            </div>
+        </section>
+
+        <section id="buttons" class="tabcontent">
+            <h2>Knoppen</h2>
+        </section>
+
+        <section id="images" class="tabcontent">
+            <h2>Afbeeldingen</h2>
+        </section>
+
+        <section id="logos" class="tabcontent">
+            <h2>Logo’s</h2>
+        </section>
+
+        <section id="icons" class="tabcontent">
+            <h2>Iconen</h2>
+        </section>
+
+        <section id="components" class="tabcontent">
+            <h2>Components</h2>
+        </section>
+
+        <section id="forms" class="tabcontent">
+            <h2>Forms</h2>
+        </section>
+
+        <section id="layout" class="tabcontent">
+            <h2>Layout</h2>
+        </section>
+
+        <section id="media" class="tabcontent">
+            <h2>Media</h2>
+        </section>
+
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>
